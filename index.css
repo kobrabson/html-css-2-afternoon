@@ -1,3 +1,11 @@
+
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+
 header{
     width: 100%;
     height: 60px;
@@ -15,18 +23,24 @@ header > div{
 header img {
     /* background-color: blue; */
     position: relative;
+    top: 30px;
     left: 5px;
 }
 
 header nav{
-    /* background-color: bisque; */
+    background-color: black;
     width: 70%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 0  auto;
+    /* margin: 0 auto; */
     position: relative;
+    padding: 10px 15px;
     
+}
+
+header  nav a {
+    color: white;
 }
 
 .dropbtn {
@@ -64,3 +78,25 @@ header nav{
 
 .dropdown:hover .dropbtn {background-color: mediumblue;}
 
+.content{
+    width: 100%;
+    height: 1000px;
+
+}
+
+.content > div {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bg-shared{
+    background-size: cover;
+    background-position: center center;
+    background-position: fixed;
+}
+
+.bg-1{
+    
+    background-image: url(./images/rocketcleaner.jpg);
+}
