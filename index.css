@@ -23,6 +23,7 @@ h2{
     position: relative;
     top: 500px;
     left: 550px;
+    max-height: 200px;
 }
 
 .hsbtn{
@@ -181,5 +182,5 @@ div button {
 
 section{
     color: white;
-    font-size: ;
+    font-size: 16px;
 }
