@@ -21,7 +21,7 @@ h2{
 
 .text-2{
     position: relative;
-    top: 500px;
+    top: 400px;
     left: 550px;
     max-height: 200px;
 }
@@ -182,5 +182,7 @@ div button {
 
 section{
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    width: 400px;
+    font-stretch: wider;
 }
