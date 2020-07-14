@@ -44,6 +44,7 @@ header nav{
 
 header  nav a {
     color: white;
+    text-decoration: none;
 }
 
 .dropbtn {
@@ -86,7 +87,7 @@ header  nav a {
 
 .content{
     width: 100%;
-    height: 500px;
+    height: 800px;
 
 }
 
@@ -126,4 +127,12 @@ div button {
     padding: 7px 10px;
     font-size: 24px;
     border: solid white 2px;
+}
+
+.bg-2{
+    background-image: url(./images/bg-2.jpg);
+}
+
+.bg-3{
+    background-image: url(./images/bg-3.jpg);
 }
